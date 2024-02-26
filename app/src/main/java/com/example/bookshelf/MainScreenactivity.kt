@@ -27,22 +27,27 @@ class MainScreenActivity : AppCompatActivity() {
         //code for the eee dept Books List
         binding.eeecardView.setOnClickListener(){
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://archives.daffodilvarsity.edu.bd/category/EEE"))
+            startActivity(intent)
         }
         //code for the mechanical dept Books List
         binding.mechanicalCardView.setOnClickListener(){
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://archives.daffodilvarsity.edu.bd/category/ETE"))
+            startActivity(intent)
         }
         //code for the textile Dept Books List
         binding.textileCardView.setOnClickListener(){
             val intent=Intent(Intent.ACTION_VIEW,Uri.parse("https://archives.daffodilvarsity.edu.bd/category/TE"))
+            startActivity(intent)
         }
         //code for the civil dept Books List
         binding.civilcardView.setOnClickListener(){
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://archives.daffodilvarsity.edu.bd/category/CE"))
+            startActivity(intent)
         }
         //code for the nfe Dept Books List
         binding.nfeCardView.setOnClickListener(){
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://archives.daffodilvarsity.edu.bd/category/NFE"))
+            startActivity(intent)
         }
     }
 }

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BookShelf</string>
+    <string name="student_name">Student Name</string>
+    <string name="id_221_15_5555">ID:221-15-5555</string>
 </resources>
