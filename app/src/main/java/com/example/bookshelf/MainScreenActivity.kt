@@ -49,5 +49,8 @@ class MainScreenActivity : AppCompatActivity() {
             val intent=Intent(Intent.ACTION_VIEW, Uri.parse("https://archives.daffodilvarsity.edu.bd/category/NFE"))
             startActivity(intent)
         }
+        binding.profile.setOnClickListener(){
+            startActivity(Intent(this,ProfileLayout::class.java))
+        }
     }
 }
